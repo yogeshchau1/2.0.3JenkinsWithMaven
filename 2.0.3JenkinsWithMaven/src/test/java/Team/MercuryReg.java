@@ -3,12 +3,16 @@ package Team;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
 
 public class MercuryReg {
-	public static void main(String[] args) {
+	
+	
+	@Test
 		
 		
-		
+		public void Reg()
+		{
 		System.out.println("OPEN BROWSER");
 		System.setProperty("webdriver.chrome.driver", "D:\\TESTING REQUIRED APPS JARS\\Chrome 96 drivers\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
