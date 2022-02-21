@@ -33,6 +33,7 @@ public class MercuryReg {
 		driver.findElement(By.name("confirmPassword")).sendKeys("666666");
 		driver.findElement(By.name("submit")).click();
 		driver.findElement(By.xpath("/html/body/div[2]/table/tbody/tr/td[2]/table/tbody/tr[2]/td/table/tbody/tr/td[2]/a")).click();
+			System.out.println("Hi");
 	}
 	
 }
